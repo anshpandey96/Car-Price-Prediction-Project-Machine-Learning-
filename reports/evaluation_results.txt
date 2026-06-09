@@ -1,0 +1,22 @@
+CAR PRICE PREDICTION - MODEL EVALUATION REPORT
+==============================================================
+
+Dataset rows after cleaning: 903
+Features used: year, mileage, engine_size, horsepower, car_age, power_to_engine_ratio, mileage_per_year, brand, fuel_type, transmission
+Target variable: price
+
+Model Performance:
+                      Model  R2 Score        MAE             MSE       RMSE
+          Linear Regression    0.9496 2,527.8874 10,508,468.2225 3,241.6768
+Gradient Boosting Regressor    0.9197 3,290.1908 16,735,641.9133 4,090.9219
+    Random Forest Regressor    0.8871 3,656.1941 23,515,850.9322 4,849.3145
+    Decision Tree Regressor    0.6551 5,992.0054 71,860,442.0099 8,477.0539
+
+Selected Best Model: Linear Regression
+Selection Reason: Linear Regression achieved the highest R2 Score and the lowest error values on the holdout test set. The generated dataset contains strong additive pricing signals such as depreciation, mileage impact, horsepower contribution, and brand premium, which a linear model captures efficiently while remaining highly interpretable.
+
+Best Model Metrics:
+R2 Score: 0.9496
+MAE: 2,527.89
+MSE: 10,508,468.22
+RMSE: 3,241.68
