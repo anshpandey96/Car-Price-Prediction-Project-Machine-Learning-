@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Car Price Prediction with Machine Learning
 
 An industry-style machine learning project that predicts used car prices from brand, year, mileage, fuel type, transmission, engine size, and horsepower. The project includes advanced exploratory data analysis, feature engineering, multiple regression models, model comparison, feature importance analysis, a saved production pipeline, and a polished Streamlit application.
@@ -170,3 +171,7 @@ reports/model_metrics.csv
 ## Author
 
 Final-year engineering portfolio project for machine learning internship submission.
+=======
+# Car-Price-Prediction-Project-Machine-Learning-
+A machine learning project to predict car prices based on multiple features such as brand, model, year, mileage, fuel type, transmission, and engine specifications. The project demonstrates end‑to‑end workflow including data preprocessing, feature engineering, model training, evaluation, and deployment‑ready scripts.
+>>>>>>> 3d63632613b7eb422db1232f6913d4938ca3111a
